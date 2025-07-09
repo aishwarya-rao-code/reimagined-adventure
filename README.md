@@ -53,30 +53,6 @@ We aim to make staging faster, accurate, and ready for integration into clinical
 | `README.md` | Project documentation |
 
 ---
-
-## How to Run
-
-### Clone the repo
-
-```bash
-git clone https://github.com/yourusername/cancer-staging-pipeline.git
-cd cancer-staging-pipeline
-Install dependencies
-Bash
-
-
-### Install Requirements
-
-```bash
-
-pip install -r requirements.txt
-### Run the Application
-
-```bash
-
-python src/staging_classification.py
-
-```
 ### Notes
 This repo contains no patient-identifiable data. Only public TCGA sample reports are used.
 
