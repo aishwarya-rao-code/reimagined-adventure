@@ -64,46 +64,53 @@ cd cancer-staging-pipeline
 Install dependencies
 Bash
 
+
+### Install Requirements
+
+```bash
+
 pip install -r requirements.txt
-Run the staging script
-Bash
+### Run the Application
+
+```bash
 
 python src/staging_classification.py
-⚠️ Notes
+
+```
+### Notes
 This repo contains no patient-identifiable data. Only public TCGA sample reports are used.
 
 Outputs are for research and educational purposes.
 
 Clinical decisions should always be verified by medical professionals.
 
-✨ Key Features
-Automated cancer staging classification
+---
 
-Upstaging and downstaging detection using clinical rules
+### Key Features
+* Automated cancer staging classification
+* Upstaging and downstaging detection using clinical rules
+* Clean modular code for easy future integration
+* Future-ready structure for ML stage prediction and treatment suggestion
 
-Clean modular code for easy future integration
+---
 
-Future-ready structure for ML stage prediction and treatment suggestion
+### Future Work
+* Build a machine learning model for stage type prediction
+* Integrate treatment recommendation module with clinician feedback
+* Extend pipeline to other cancer types and staging guidelines
 
-🚧 Future Work
-Build a machine learning model for stage type prediction
+---
 
-Integrate treatment recommendation module with clinician feedback
+### Acknowledgements
+* The Cancer Genome Atlas (TCGA) for public datasets
+* AWS Textract for OCR extraction
+* University of South Florida (USF)
+* Professor Templeton for guidance
+* Professor Ankur Mali for mentorship and support
 
-Extend pipeline to other cancer types and staging guidelines
+---
 
-🙏 Acknowledgements
-The Cancer Genome Atlas (TCGA) for public datasets
-
-AWS Textract for OCR extraction
-
-University of South Florida (USF)
-
-Professor Templeton for guidance
-
-Professor Ankur Mali for mentorship and support
-
-🤝 Contributions
+### Contributions
 Open to improvements and extensions. Feel free to fork, submit pull requests, or raise issues to discuss ideas.
 
 Thank you for checking out this project!
